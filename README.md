@@ -14,7 +14,7 @@ This is an open source Mixmax Link Resolver. See <http://sdk.mixmax.com/docs/tut
 | Input name         | Value                          |
 |--------------------|--------------------------------|
 | Description        | AirBnB (airbnb.com/rooms/*)    |
-| Regular Expression | airbnb.(com|ca)/rooms/[^\\/]+  |
+| Regular Expression | `airbnb.(com|ca)/rooms/[^\\/]+`  |
 | Resolver URL       | http://localhost:9146/resolver |
 
 Refresh Gmail with Mixmax installed. Click Compose and paste a AirBnB url such as https://www.airbnb.ca/rooms/7424390 on a new line.
