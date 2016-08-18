@@ -1,0 +1,30 @@
+{
+  "name": "mixmax-airbnb-link-resolver",
+  "version": "0.0.1",
+  "description": "AirBnB link resolver for Mixmax",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wfortin/mixmax-airbnb-link-resolver.git"
+  },
+  "author": "wfortin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wfortin/mixmax-airbnb-link-resolver/issues"
+  },
+  "homepage": "https://github.com/wfortin/mixmax-airbnb-link-resolver",
+  "dependencies": {
+    "airapi": "^0.1.0",
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "request": "^2.64.0",
+    "synchronize": "^0.9.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}

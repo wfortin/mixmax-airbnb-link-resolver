@@ -1,0 +1,52 @@
+<div style="
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #484848;
+">
+    <div style="
+            background-image: url({{image}});
+            background-size: cover;
+            background-position: 50% 50%;
+            color: #fff;
+            height: 200px;
+            position: relative;
+            ">
+        <div style="
+    background-color: #2d2d2d;
+    font-size: 24px;
+    display: inline-block;
+    padding: 5px 15px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    ">
+            <span>{{price}}</span>
+            <sup style="font-size: 14px">{{currency}}</sup>
+        </div>
+        <img alt="AirBnB Logo"
+             style="float: right"
+             src="data:image/png;base64,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"/>
+    </div>
+    <div>
+        <div>
+            <div style="font-size: 24px;">
+                {{title}}
+            </div>
+            <div style="font-size: 14px;">
+                {{type}}
+                {{#if rating}}
+                    · {{rating}} <span style="color: #ffb400">&#9733;</span>&nbsp;
+                {{/if}}
+                {{#if reviews}}
+                    ({{reviews}} reviews)
+                {{/if}}
+            </div>
+            <div style="font-size: 14px;">
+                {{city}}, {{state}}, {{country}}
+            </div>
+        </div>
+        <div>
+            <p>{{description}}</p>
+        </div>
+    </div>
+</div>
+
